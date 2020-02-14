@@ -52,7 +52,7 @@ def naming_system
     :sub_category => {
       label => "Phlum",
       :sub_category => {
-        label => "Class",
+        :label => "Class",
         :sub_category => order 
         
       }
