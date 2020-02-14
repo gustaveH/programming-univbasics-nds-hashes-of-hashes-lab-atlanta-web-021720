@@ -33,8 +33,17 @@
 def naming_system
   family ={
     :label => "family",
-    
+    :sub_category => {
+      :label => "Genus",
+      :sub_category => {
+        :label => "Species",
+    :sub_category => nil
+      }
+    }
   }
+  
+  
+  
   
 
 end
