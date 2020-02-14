@@ -47,6 +47,19 @@ def naming_system
     :sub_category => family
   }
   
+  domain = {
+    :label => "Kingdom",
+    :sub_category => {
+      label => "Phlum",
+      :sub_category => {
+        label => "Class",
+        :sub_category => order 
+        
+      }
+      
+    }
+  }
+  
   
 
 end
