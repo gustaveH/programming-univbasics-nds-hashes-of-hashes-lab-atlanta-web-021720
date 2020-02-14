@@ -50,7 +50,7 @@ def naming_system
   domain = {
     :label => "Kingdom",
     :sub_category => {
-      label => "Phlum",
+      :label => "Phlum",
       :sub_category => {
         :label => "Class",
         :sub_category => order 
